@@ -5,6 +5,9 @@ def le_numeros():
     x = float(input("coloque o primeiro numero aqui:"))
     y = float(input("coloque o segundo numero aqui:"))
     z = float(input("coloque o terceiro numero aqui:"))
+    print("os números digitados são:")
+    print(x, y, z)
+
 
 def calcula_soma():
     global soma
@@ -16,7 +19,7 @@ def calcula_soma():
 def calcula_media():
     global media
     media = (soma / 3)
-    print("essa é a media dos numeros")
+    print("a media dos números é")
     print(media)
 
 def main():
@@ -24,7 +27,3 @@ def main():
     calcula_soma()
     calcula_media()
 main()
-
-
-
-
